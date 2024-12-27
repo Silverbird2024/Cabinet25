@@ -55,6 +55,14 @@ $scope.TextInput9_change = function() {localStorage.setItem("link005",$App.link0
 $scope.TextInput10_change = function() {localStorage.setItem("link006",$App.link006);};
 $scope.TextInput11_change = function() {localStorage.setItem("link007",$App.link007);};
 $scope.TextInput12_change = function() {localStorage.setItem("link008",$App.link008);};
+$scope.PushButton18_click = function() {window.open($App.link001, "_blank");};
+$scope.PushButton19_click = function() {window.open($App.link002, "_blank");};
+$scope.PushButton20_click = function() {window.open($App.link003, "_blank");};
+$scope.PushButton21_click = function() {window.open($App.link004, "_blank");};
+$scope.PushButton22_click = function() {window.open($App.link005, "_blank");};
+$scope.PushButton23_click = function() {window.open($App.link006, "_blank");};
+$scope.PushButton24_click = function() {window.open($App.link007, "_blank");};
+$scope.PushButton25_click = function() {window.open($App.link008, "_blank");};
 });
 NeoApp.controller("Settings1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 4;
